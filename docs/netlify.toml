@@ -9,4 +9,3 @@
   to = "https://nocodb.com/docs/product-docs/:splat"
   status = 301
   force = true
-  conditions = { Host = "docs.nocodb.com" }
