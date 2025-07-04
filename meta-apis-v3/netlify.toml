@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "https://nocodb.com/api/v3/meta/:splat"
+  to = "https://nocodb.com/apis/v3/meta/:splat"
   status = 301
   force = true
