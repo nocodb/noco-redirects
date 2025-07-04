@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://nocodb.com/api/v2/data/:splat"
+  status = 301
+  force = true
