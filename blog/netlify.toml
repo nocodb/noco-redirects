@@ -1,5 +1,25 @@
+# Specific redirects for the three blog posts
+# These must come FIRST before the catch-all redirect
+[[redirects]]
+  from = "/moving-to-playwright-from-cypress-part-2"
+  to = "https://nocodb.com/blog/moving-to-playwright-from-cypress-part-2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/moving-to-playwright-from-cypress-part-1"
+  to = "https://nocodb.com/blog/moving-to-playwright-from-cypress-part-1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/announcing-nocodb-seed-funding-of-10-5m"
+  to = "https://nocodb.com/blog/announcing-nocodb-seed-funding-of-10-5m"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/*"
-  to = "https://nocodb.com/blog/:splat"
+  to = "https://nocodb.com/blog"
   status = 301
   force = true
